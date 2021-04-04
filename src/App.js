@@ -1,3 +1,4 @@
+import ScrollToTop from "./components/ScrollToTop";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
 import HomePage from "./pages/HomePage";
@@ -13,16 +14,18 @@ import "./styles/app.css";
 function App() {
   return (
     <Router>
-      <NavBar />
+      <ScrollToTop>
+        <NavBar />
 
-      <Route path="/" exact component={HomePage} />
-      <Route path="/product" component={ProductPage} />
-      <Route path="/about" component={AboutPage} />
-      <Route path="/contact" component={ContactPage} />
-      <Route path="/locations" component={LocationsPage} exact />
-      <Route path="/locations/yakkasaroy" component={Yakkasaroy} />
+        <Route path="/" exact component={HomePage} />
+        <Route path="/product" component={ProductPage} />
+        <Route path="/about" component={AboutPage} />
+        <Route path="/contact" component={ContactPage} />
+        <Route path="/locations" component={LocationsPage} exact />
+        <Route path="/locations/yakkasaroy" component={Yakkasaroy} />
 
-      <Footer />
+        <Footer />
+      </ScrollToTop>
     </Router>
   );
 }

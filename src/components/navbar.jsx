@@ -5,6 +5,7 @@ import { IoPersonCircleOutline } from "react-icons/io5";
 import { IoBag } from "react-icons/io5";
 import { IoChevronDown } from "react-icons/io5";
 import { IoChevronUp } from "react-icons/io5";
+import { Link } from "react-router-dom"
 
 import Logo from "../img/logo.jpg";
 
@@ -13,37 +14,48 @@ function NavBar() {
 
   return (
     <div className="flex navbar justify-between align-center">
-      <img src={Logo} alt="logo" className="logo"></img>
+      {/* <img src={Logo} alt="logo" className="logo"></img> */}
+      <h1>JUST</h1>
       <ul className="flex">
+      <li className="flex align-center mr-20">
+        <Link to="/">
+          <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
+            Home
+          </p>
+        </Link>
+          {/* <IoChevronDown /> */}
+        </li>
         <li className="flex align-center mr-20">
+          <Link to="/product">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
             одежда
           </p>
+          </Link>
           <IoChevronDown />
         </li>
         <li className="flex align-center mr-20">
+        <Link to="/about">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
-            ОБУВЬ
+            About
           </p>
-          <IoChevronDown />
+        </Link>
+          {/* <IoChevronDown /> */}
         </li>
         <li className="flex align-center mr-20">
+        <Link to="/contact">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
-            НОВИНКИ
+            Contact
           </p>
-          <IoChevronDown />
+        </Link>
+          {/* <IoChevronDown /> */}
         </li>
         <li className="flex align-center mr-20">
+        <Link to="/locations">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
-            АКСЕССУАРЫ
+            Locations
           </p>
-          <IoChevronDown />
-        </li>
-        <li className="flex align-center mr-20">
-          <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
-            РАСПРОДАЖА
-          </p>
-          <IoChevronDown />
+        </Link>
+          {/* <IoChevronDown /> */}
         </li>
       </ul>
       <div>

@@ -53,7 +53,7 @@ function Footer() {
         </div>
         
         <div className='flex justify-center align-center mt-50 uppercase'>
-          <p className="m-0 font-11 text-weight-900 text-spacing">&copy;2021 Just LLC. All rights reserved <br/> DESIGNED BY</p>
+          <p className="m-0 font-11 text-weight-900 text-spacing">&copy;2021 Just LLC. All rights reserved</p>
         </div>
         
       </footer>

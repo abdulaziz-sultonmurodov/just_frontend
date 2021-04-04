@@ -60,7 +60,7 @@ const Card = () => {
           </div>
       </div> */}
 
-      <div className="cardContainer flex">
+      <div className="cardContainer flex ">
         <div className="cardInfoContainer my-20">
           <img className="imageChangeHover" src={image1} alt="" />
           <h6 className="lightGrey fontEleven">MAKR</h6>
