@@ -1,0 +1,12 @@
+.size-btn {
+  border: none;
+  outline: none;
+  background-color: #e5e5e5;
+  padding: 5px 10px;
+}
+
+.size-btn:hover,
+.size-btn:active,
+.size-btn:focus {
+  background-color: #bcbcbc;
+}

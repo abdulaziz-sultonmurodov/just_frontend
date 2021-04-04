@@ -1,0 +1,13 @@
+.navbar {
+  height: 80px;
+  padding: 0 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  width: 100px;
+  height: 80px;
+}

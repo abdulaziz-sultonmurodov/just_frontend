@@ -1,0 +1,19 @@
+.product {
+  padding: 0 30px;
+}
+
+.product_img {
+  width: 100px;
+  height: 150px;
+}
+
+.product__main-img {
+  width: 500px;
+  height: 650px;
+}
+
+.add-to-bag {
+  border: none;
+  padding: 5px 15px;
+  outline: none;
+}

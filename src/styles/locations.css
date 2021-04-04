@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1000px) {
+    .location-responsive {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .locations-responsive {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .locations-responsive {
+        width: 100%;
+    }
+}
