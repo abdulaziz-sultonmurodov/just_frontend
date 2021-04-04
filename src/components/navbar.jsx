@@ -18,7 +18,7 @@ function NavBar() {
       <h1>JUST</h1>
       <ul className="flex">
       <li className="flex align-center mr-20">
-        <Link to="/">
+        <Link className='text-decoration-none' to="/">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
             Home
           </p>
@@ -26,7 +26,7 @@ function NavBar() {
           {/* <IoChevronDown /> */}
         </li>
         <li className="flex align-center mr-20">
-          <Link to="/product">
+          <Link className='text-decoration-none' to="/product">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
             одежда
           </p>
@@ -34,7 +34,7 @@ function NavBar() {
           <IoChevronDown />
         </li>
         <li className="flex align-center mr-20">
-        <Link to="/about">
+        <Link className='text-decoration-none' to="/about">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
             About
           </p>
@@ -42,7 +42,7 @@ function NavBar() {
           {/* <IoChevronDown /> */}
         </li>
         <li className="flex align-center mr-20">
-        <Link to="/contact">
+        <Link className='text-decoration-none' to="/contact">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
             Contact
           </p>
@@ -50,7 +50,7 @@ function NavBar() {
           {/* <IoChevronDown /> */}
         </li>
         <li className="flex align-center mr-20">
-        <Link to="/locations">
+        <Link className='text-decoration-none' to="/locations">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
             Locations
           </p>
