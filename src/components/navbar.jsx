@@ -20,7 +20,7 @@ function NavBar() {
       <li className="flex align-center mr-20">
         <Link className='text-decoration-none' to="/">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
-            Home
+          Главный
           </p>
         </Link>
           {/* <IoChevronDown /> */}
@@ -28,7 +28,7 @@ function NavBar() {
         <li className="flex align-center mr-20">
           <Link className='text-decoration-none' to="/product">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
-            одежда
+            Oдежда
           </p>
           </Link>
           <IoChevronDown />
@@ -36,7 +36,7 @@ function NavBar() {
         <li className="flex align-center mr-20">
         <Link className='text-decoration-none' to="/about">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
-            About
+          О нас
           </p>
         </Link>
           {/* <IoChevronDown /> */}
@@ -44,7 +44,7 @@ function NavBar() {
         <li className="flex align-center mr-20">
         <Link className='text-decoration-none' to="/contact">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
-            Contact
+          Контакт
           </p>
         </Link>
           {/* <IoChevronDown /> */}
@@ -52,7 +52,7 @@ function NavBar() {
         <li className="flex align-center mr-20">
         <Link className='text-decoration-none' to="/locations">
           <p className="font-15 font-secondary uppercase  darkGrey pointer text-spacing hover-black">
-            Locations
+          Локации
           </p>
         </Link>
           {/* <IoChevronDown /> */}
